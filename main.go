@@ -3,6 +3,8 @@ Copyright (c) 2024 Brahim Machkouri
 
 This software is provided "as is", without any warranty of any kind, express or implied, including but not limited to the warranties of merchantability and fitness for a particular purpose. In no event shall the author or copyright holders be liable for any damage, whether in an action of contract, tort, or otherwise, arising from the use of this software.
  */
+
+// v1.0
 package main
 
 import (
