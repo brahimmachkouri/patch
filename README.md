@@ -1,6 +1,6 @@
 # Patch a file or create a patch 
 
-Patch a file :
+Applies a patch to a file using a JSON file that contains the name of the file to patch, along with the offsets and the byte data to be modified :
 
 ```bash
 .\patch.exe --mode=patch --patch=mybinary.json
