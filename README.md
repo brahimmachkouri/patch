@@ -3,13 +3,13 @@
 Patch a file :
 
 ```bash
-patch.exe --mode=patch --patch=mybinary.json
+.\patch.exe --mode=patch --patch=mybinary.json
 ```
 
 Generate a patch (json file) by comparing 2 files :
 
 ```bash
-patch.exe --mode=patchgen --original=mybinary.orig.exe --modified=mybinary.exe --output=mybinary.json
+.\patch.exe --mode=patchgen --original=mybinary.orig.exe --modified=mybinary.exe --output=mybinary.json
 ```
 
 Example of generated JSON file:
