@@ -9,7 +9,7 @@ Applies a patch to a file using a JSON file that contains the name of the file t
 Generate a patch (json file) by comparing 2 files :
 
 ```bash
-.\patch.exe --original=mybinary.orig.exe --modified=mybinary.exe --output=mybinary.json
+.\patch.exe --source mybinary.orig.exe --modified mybinary.exe --output mybinary.json
 ```
 
 Example of generated JSON file:
