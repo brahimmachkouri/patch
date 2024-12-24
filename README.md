@@ -1,3 +1,5 @@
+## The compiled file is way too big, so I made a rust version : [https://github.com/brahimmachkouri/patchit](patchit)
+
 # Patch a file or create a patch 
 
 Applies a patch to a file using a JSON file that contains the name of the file to patch with its checksum, along with the offsets and the byte data to be modified :
