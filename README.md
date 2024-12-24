@@ -3,13 +3,13 @@
 Applies a patch to a file using a JSON file that contains the name of the file to patch with its checksum, along with the offsets and the byte data to be modified :
 
 ```bash
-.\patch.exe mybinary.json
+.\patchit.exe mybinary.json
 ```
 
 Generate a patch (json file) by comparing 2 files :
 
 ```bash
-.\patch.exe --source mybinary.orig.exe --modified mybinary.exe --output mybinary.json
+.\patchit.exe --source mybinary.orig.exe --modified mybinary.exe --output mybinary.json
 ```
 
 Example of generated JSON file:
