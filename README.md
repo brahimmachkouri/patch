@@ -1,4 +1,4 @@
-## The compiled file is way too big, so I made a rust version : [https://github.com/brahimmachkouri/patchit](patchit)
+## The compiled file is way too big, so I made a rust version : [patchit](https://github.com/brahimmachkouri/patchit)
 
 # Patch a file or create a patch 
 
